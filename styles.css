@@ -301,7 +301,7 @@ a {
     display: flex;
     padding: 0px 10px;
     justify-content: space-between;
-    min-height: 5vh;
+    min-height: 6vh;
     position: sticky;
     bottom: 5px;
     align-items: flex-end;
