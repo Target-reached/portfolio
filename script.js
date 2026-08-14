@@ -114,7 +114,7 @@ function delayeddisplay(item, time) {
     }, time);
 }
 
-alertBtn.addEventListener('click', (e) => {
+download_cvBtn.addEventListener('click', (e) => {
     alert('This will be available soon..!');
     return;
 
