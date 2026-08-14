@@ -4,6 +4,9 @@ const aboutPage = document.querySelector('.aboutpage');
 const projectsPage = document.querySelector('.projectspage');
 const certificatePage = document.querySelector('.certificatepage');
 const educationalInfo = document.querySelector('.educational_info');
+const sendAlertbtn = document.querySelector('.send_btn');
+const download_cvBtn = document.querySelector('.downloadcvbtn');
+const viewProjectsbtn = document.querySelector('.viewprojectsbtn');
 
 
 //importing section buttons
@@ -50,6 +53,10 @@ certificatepagebutton.addEventListener('click', (e) => {
     delayeddisplay(certificate_3, 900);
 
 });
+viewProjectsbtn.addEventListener('click', (e) => {
+    hideAllSections();
+    projectsPage.classList.remove('hidden');
+})
 
 // Code for Slideshow in homepage!
 const slideshowFrame = document.querySelector('.projects_slideshow_container');
@@ -107,6 +114,15 @@ function delayeddisplay(item, time) {
     }, time);
 }
 
+alertBtn.addEventListener('click', (e) => {
+    alert('This will be available soon..!');
+    return;
+
+});
+sendAlertbtn.addEventListener('click', (e) => {
+    alert('This will be available soon!');
+    return;
+});
 
 
 
