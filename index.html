@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <title>Meet Him</title>
 </head>
+
 <body>
-    <div>
-        <section>
-            <img alt="designer!" src="siteImages/designer.png">
-            <img src="siteImages/My_Profession.avif">
-            <div>
-                <p>Hi, I'm<br><span>Jagan Mohan Talari</span><br>Aspiring <span>
-                        AI Full-Stack Developer </span><span>|</span>
+    <div class="universalContainer">
+        <section class="his_info">
+            <img src="siteImages/designer.png" class="his_image" alt="designer!">
+            <img src="siteImages/My_Porfession.avif" class="my_profession">
+            <div class="his_profession">
+                <p class="his_dialogue">Hi, I'm<br><span class="his_name">Jagan Mohan Talari</span><br>Aspiring <span
+                        class="his_aim">
+                        AI Full-Stack Developer </span><span class="slantedLine">|</span>
                     <br>Building strong foundations today,<br>creating better solutions tomorrow.
                 </p>
-                <div>
-                    
+                <div class="resume_actions">
+                    <button class="downloadcvbtn">Download CV</button>
+                    <button class="viewprojectsbtn">View Projects</button>
                 </div>
             </div>
         </section>
-        
-        <section>
+        <!-- The About Section for big screens -->
+        <section class="about-section-big">
             <img src="siteImages/designer.png">
-            <div>
+            <div class="about_second_div">
                 <div>
                     <div>
-                        <img src="siteImages/siteLogos/user.png">
+                        <img src="siteImages/siteLogos/user.png" class="three_div_logo">
                         <p>About Me</p>
                     </div>
                     <p>I'm Jagan Mohan, an engineering student<br>
                         who loves to code, build, and learn technologies.<br>
                         My goal is to become an AI full-stack engineer<br>
                         and build products that make a difference.</p>
-                    <div>
+                    <div class="three-divs">
                         <div>
-                            <img src="siteImages/siteLogos/graduating-student.png">
+                            <img src="siteImages/siteLogos/graduating-student.png" class="three_div_logo">
                             <div>
                                 <p>3rd Year<br>B.Tech Student</p>
                             </div>
                         </div>
                         <div>
-                            <img src="siteImages/siteLogos/active (1).png">
+                            <img src="siteImages/siteLogos/active (1).png" class="three_div_logo">
                             <div>
                                 <p>AI & Web<br>Enthusiast</p>
                             </div>
                         </div>
                         <div>
-                            <img src="siteImages/siteLogos/knowledge.png">
+                            <img src="siteImages/siteLogos/knowledge.png" class="three_div_logo">
                             <div>
                                 <p>Always<br>Learning</p>
                             </div>
@@ -57,158 +61,168 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="about_third_div">
                 <div>
-                    <img src="siteImages/siteLogos/target.png">
+                    <img src="siteImages/siteLogos/target.png" class="three_div_logo">
                     <p>My Goals</p>
                 </div>
                 <div>
                     <p> ✔ Master full-stack development<br>
                         ✔ Learn AI & machine learning<br>
                         ✔ Build real-world projects<br>
-                        ✔ Help people with technology<br>
+                        ✔ Help people through technology<br>
                         ✔ Achieve financial freedom</p>
                 </div>
             </div>
         </section>
-        <section>
-            <p>Reach Engineer</p>
-            <div>
-                <a href="https://www.linkedin.com/in/talari-jagan-mohan?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
-                    <img src="siteImages/siteLogos/linkedin.png"></a>
+        <section class="social_links_container">
+            <p class="reach_p">Reach Engineer</p>
+            <div class="links_container">
+                <a href="https://www.linkedin.com/in/talari-jagan-mohan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">
+                    <img class="link_img linkdin" src="siteImages/siteLogos/linkedin.png"></a>
                 <a href="https://github.com/Target-reached" target="_blank">
-                    <img src="siteImages/siteLogos/github-sign.png"></a>
+                    <img class="link_img github" src="siteImages/siteLogos/github-sign.png"></a>
                 <a href="https://www.instagram.com/man_of_the_men__8?igsh=MWZnYTk3a3lhbnc0dQ==" target="_blank">
-                    <img src="siteImages/siteLogos/instagram.png"></a>
+                    <img class="link_img insta" src="siteImages/siteLogos/instagram.png"></a>
                 <a href="mailto:jai.8.joy@gmail.com?subject=Support%20request" target="_blank">
-                    <img src="siteImages/siteLogos/email.png"></a>
+                    <img class="link_img mail" src="siteImages/siteLogos/email.png"></a>
             </div>
         </section>
         <br>
-        <hr color="grey">
-        <section>
-            <p>Journey</p>
-            <div>
-                <div>
+        <hr bg color="grey">
+        <section class="his_achivements">
+            <p class="journey_heading">Journey</p>
+            <div class="achivements_box">
+                <div class="achivement_info_box">
                     <p>2+<br>Projects</p>
                 </div>
-                <div>
+                <div class="achivement_info_box">
                     <p>1+<br>Years<br>Learning</p>
                 </div>
-                <div>
+                <div class="achivement_info_box">
                     <p>3+<br>Skills</p>
                 </div>
-                <div>
+                <div class="achivement_info_box">
                     <p>100%<br>Dedication</p>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <img src="siteImages/siteLogos/user.png">
-                <p>About Me</p>
+        <section class="his_about">
+            <div class="about_logo_heading">
+                <img src="siteImages/siteLogos/user.png" class="about_logo">
+                <p class="about_heading">About Me</p>
             </div>
             <p>I'm a B.Tech engineering student.<br>I'm always focused on full-stack development
                 to build user-friendly, responsive, and best-looking web applications.
             </p>
         </section>
-        <hr color="grey">
+        <hr bg color="grey">
 
-        <section>
-            <div>
-                <img src="siteImages/siteLogos/code.png">
-                <p>Skills</p>
+        <section class="his_skills">
+            <div class="skills_logo_heading">
+                <img src="siteImages/siteLogos/code.png" class="skills_logo">
+                <p class="skills_heading">Skills</p>
             </div>
-            <div>
-                <div>
+            <div class="skills_container">
+                <div class="skill_info_box">
                     <p>HTML</p>
-                    <img src="siteImages/siteLogos/text.png">
+                    <img src="siteImages/siteLogos/text.png" class="skill_img">
                 </div>
-                <div>
+                <div class="skill_info_box">
                     <p>CSS</p>
-                    <img src="siteImages/siteLogos/css-3.png">
+                    <img src="siteImages/siteLogos/css-3.png" class="skill_img">
                 </div>
-                <div>
+                <div class="skill_info_box">
                     <p>JavaScript</p>
-                    <img src="siteImages/siteLogos/js.png">
+                    <img src="siteImages/siteLogos/js.png" class="skill_img">
                 </div>
-                <div>
+                <div class="skill_info_box">
                     <p>Bootstrap</p>
-                    <img src="siteImages/siteLogos/bootstrap.png">
+                    <img src="siteImages/siteLogos/bootstrap.png" class="skill_img">
                 </div>
-                <div>
+                <div class="skill_info_box">
                     <p>Python</p>
-                    <img src="siteImages/siteLogos/python.png">
+                    <img src="siteImages/siteLogos/python.png" class="skill_img">
                 </div>
-                <div>
+                <div class="skill_info_box">
                     <p>SQL</p>
-                    <img src="siteImages/siteLogos/database.png">
+                    <img src="siteImages/siteLogos/database.png" class="skill_img">
                 </div>
             </div>
 
-            <div>
+            <!-- Learning roadmap for big screens! -->
+            <div class="roadmap">
                 <p>Roadmap</p>
                 <div>
                     <div>
-                        <img src="siteImages/Web development.jpg">
+                        <img src="siteImages/Web dvelopment.jpg" class="roadmap_img">
                         <p>Front-End</p>
                     </div>
-                    <img src="siteImages/arrow-right.png">
+                    <img src="siteImages/arrow-right.png" class="arrow">
                     <div>
-                        <img src="siteImages/backend.jpg">
+                        <img src="siteImages/backend.jpg" class="roadmap_img">
                         <p>Back-End</p>
                     </div>
-                    <img src="siteImages/arrow-right.png">
+                    <img src="siteImages/arrow-right.png" class="arrow">
                     <div>
-                        <img src="siteImages/aiskills.jpg">
+                        <img src="siteImages/aiskills.jpg" class="roadmap_img">
                         <p>AI Skills</p>
                     </div>
-                    <img src="siteImages/arrow-right.png">
+                    <img src="siteImages/arrow-right.png" class="arrow">
                     <div>
-                        <img src="siteImages/communication.jpg">
+                        <img src="siteImages/communication.jpg" class="roadmap_img">
                         <p>Communication Skills</p>
                     </div>
                 </div>
             </div>
 
-            <div>
+            <!-- Messeging Area for big screens -->
+            <div class="messeging-area">
                 <div>
                     <p>Contact Designer</p>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            
+                <div class="text-social-field">
+                    <div class="text-field">
+                        <div class="inputs-box">
+                            <input type="text" class="name" placeholder="Your Name">
+                            <input type="email" class="mail" placeholder="Your Mail">
+                            <input type="number" class="phone" placeholder="Your Phone">
                         </div>
+
+                        <textarea class="messege" placeholder="Your Message Here..."></textarea>
+                        <button class="send_btn">Send Alert</button>
                     </div>
-                    <div>
+                    <div class="social_links_big">
                         <p>Let's Connect</p>
                         <p>I'm always open to discussing new<br>
                             projects, creative ideas, or opportunities<br>
                             to be part of your visions.</p>
-                        <div>
-                            <a href="https://www.linkedin.com/in/talari-jagan-mohan?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
-                                <img src="siteImages/siteLogos/linkedin.png"></a>
+                        <div class="links_here">
+                            <a href="https://www.linkedin.com/in/talari-jagan-mohan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank">
+                                <img class="link_img" src="siteImages/siteLogos/linkedin.png"></a>
                             <a href="https://github.com/Target-reached" target="_blank">
-                                <img src="siteImages/siteLogos/github-sign.png"></a>
-                            <a href="https://www.instagram.com/man_of_the_men__8?igsh=MWZnYTk3a3lhbnc0dQ==" target="_blank">
-                                <img src="siteImages/siteLogos/instagram.png"></a>
+                                <img class="link_img" src="siteImages/siteLogos/github-sign.png"></a>
+                            <a href="https://www.instagram.com/man_of_the_men__8?igsh=MWZnYTk3a3lhbnc0dQ=="
+                                target="_blank">
+                                <img class="link_img" src="siteImages/siteLogos/instagram.png"></a>
                             <a href="mailto:jai.8.joy@gmail.com?subject=Support%20request" target="_blank">
-                                <img src="siteImages/siteLogos/email.png"></a>
+                                <img class="link_img" src="siteImages/siteLogos/email.png"></a>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <section>
-                <div>
-                    <div>
+            <section class="projects_slideshow_container">
+                <div class="display_frame">
+                    <div class="slide_box">
                         <img src="siteImages/project-1.png">
                         <p>Simple Learning Portal</p>
                     </div>
-                    <div>
+                    <div class="slide_box">
                         <img src="siteImages/project-2.jpeg">
                         <p>Modern To-Do Webapp</p>
                     </div>
@@ -216,71 +230,101 @@
             </section>
 
         </section>
-        <a href="mailto:jai.8.joy@gmail.com?subject=Support%20request" target="_blank">
-            
+        <a href="mailto:jai.8.joy@gmail.com?subject=Support%20request" target="_blank" class="contactbtn">
+            <button class="contactbtn"><img src="siteImages/siteLogos/messege.png" class="meet_him">Reach</button>
         </a>
     </div>
 
-    <section>
+
+    <!--About Page Code here-->
+    <section class="aboutpage hidden">
         <h2>About Designer</h2>
-        <div>
-            <p></p>
-            <p></p>
-            <p></p>
+        <div class="typewritter">
+            <p class="name_line"></p>
+            <p class="phone_line"></p>
+            <p class="mail_line"></p>
         </div>
-        <div>
-            <div>
+        <div class="educational_info hidden_info">
+            <div class="ssc_board">
                 <p>SSC Board Percentage : 413 { 68.83 % }</p>
             </div>
-            <div>
+            <div class="inter_board">
                 <p>Intermediate Percentage : 909 { 90.9% }</p>
             </div>
-            <div>
-                <p>First Year CGPA : 9.45</p>
-                <p>Second Year CGPA : 9.78</p>
-                <p>Third Year CGPA : -</p>
-                <p>Fourth Year CGPA : -</p>
+            <div class="engineering_cgpa">
+                <p class="first_year">First Year CGPA : 9.45</p>
+                <p class="second_year">Second Year CGPA : 9.78</p>
+                <p class="third_year">Third Year CGPA : -</p>
+                <p class="fourth_year">Fourth Year CGPA : -</p>
             </div>
         </div>
     </section>
 
-    <section>
+    <!-- Projects Page code here -->
+    <section class="projectspage hidden">
         <h2>Projects Journey</h2>
-        <div>
+        <div class="projects-grid">
+
             <a href="https://target-reached.github.io/my-vision/" target="_blank">
-                <img src="siteImages/project-1.png">Simple Learning Portal</a>
+                <img src="siteImages/project-1.png" class="project">Simple Learning Portal</a>
             <hr>
             <a href="https://target-reached.github.io/Modern-ToDo-App/" target="_blank">
-                <img src="siteImages/project-2.jpeg">Modern Todo Application ( Seyro )</a>
+                <img src="siteImages/project-2.jpeg" class="project">Modern Todo Application ( Seyro )</a>
             <hr>
+            <!--Space for future projects!  -->
         </div>
     </section>
 
-    <section>
-        <h2>Certifications</h2>
-        <div>
-            <div>
-                <img src="siteImages/nxtwave.jpeg">
+    <!-- Certificate Page code here! -->
+    <section class="certificatepage hidden">
+        <h2>Certification</h2>
+        <div class="certificates_box">
+            <div class="c-1 hidden_info">
+                <img src="siteImages/nxtwave.jpeg" class="certificate ">
                 <p>NxtWave Static Website Building Certificate</p>
             </div>
-            <div>
-                <img src="siteImages/python_c.jpeg">
+            <div class="c-2 hidden_info">
+                <img src="siteImages/python_c.jpeg" class="certificate">
                 <p>Python Fundamentals Certificate</p>
             </div>
-            <div>
-                <img src="siteImages/bootstrapc.jpeg">
+            <div class="c-3 hidden_info">
+                <img src="siteImages/bootstrapc.jpeg" class="certificate">
                 <p>Bootstrap Fundamentals Certificate</p>
             </div>
+
         </div>
     </section>
 
-    <section>
-        <div>
+
+    <section class="pageNavbar">
+        <div class="his_brand">
             <img src="siteImages/siteLogos/jm.png">
         </div>
-        <div>
-            
+        <div class="navbtnbox">
+            <button class="homebtn">
+                <div class="navbtn"><img src="siteImages/siteLogos/home.png">
+                    <p>Home</p>
+                </div>
+            </button>
+            <button class="aboutbtn">
+                <div class="navbtn"><img src="siteImages/siteLogos/user.png">
+                    <p>About</p>
+                </div>
+            </button>
+            <button class="projectsbtn">
+                <div class="navbtn"><img src="siteImages/siteLogos/open-folder.png">
+                    <p>Projects</p>
+                </div>
+            </button>
+            <button class="certificatebtn">
+                <div class="navbtn"><img src="siteImages/siteLogos/medal.png">
+                    <p>Memos</p>
+                </div>
+            </button>
         </div>
+
     </section>
+
 </body>
+
 </html>
