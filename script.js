@@ -15,6 +15,15 @@ const aboutpagebutton = document.querySelector('.aboutbtn');
 const projectspagebutton = document.querySelector('.projectsbtn');
 const certificatepagebutton = document.querySelector('.certificatebtn');
 
+//certificate page logic
+const certificate_1 = document.querySelector('.c-1');
+const certificate_2 = document.querySelector('.c-2');
+const certificate_3 = document.querySelector('.c-3');
+const certificate_4 = document.querySelector('.c-4');
+const certificate_5 = document.querySelector('.c-5');
+const certificate_6 = document.querySelector('.c-6');
+const certificate_7 = document.querySelector('.c-7');
+
 //function to hide all sections
 function hideAllSections() {
     homePage.classList.add('hidden');
@@ -51,6 +60,10 @@ certificatepagebutton.addEventListener('click', (e) => {
     delayeddisplay(certificate_1, 300);
     delayeddisplay(certificate_2, 600);
     delayeddisplay(certificate_3, 900);
+    delayeddisplay(certificate_4, 1200);
+    delayeddisplay(certificate_5, 1500);
+    delayeddisplay(certificate_6, 1800);
+    delayeddisplay(certificate_7, 2100);
 
 });
 viewProjectsbtn.addEventListener('click', (e) => {
@@ -101,10 +114,6 @@ let current_index1 = 0;
 let current_index2 = 0;
 let current_index3 = 0;
 
-//certificate page logic
-const certificate_1 = document.querySelector('.c-1');
-const certificate_2 = document.querySelector('.c-2');
-const certificate_3 = document.querySelector('.c-3');
 
 //function for dispaying with delay!
 function delayeddisplay(item, time) {
