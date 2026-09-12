@@ -481,7 +481,11 @@ a {
 
 .c-1,
 .c-2,
-.c-3 {
+.c-3,
+.c-4,
+.c-5,
+.c-6,
+.c-7{
     width: 100%;
     opacity: 0;
     transition: all 0.5s ease;
@@ -708,9 +712,13 @@ a {
         align-items: center;
     }
 
-    .c-1,
-    .c-2,
-    .c-3 {
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-5,
+.c-6,
+.c-7{
         width: 65%;
         height: 35vh;
         font-size: 1.2rem;
@@ -1084,9 +1092,13 @@ a {
         padding: 50px;
     }
 
-    .c-1,
-    .c-2,
-    .c-3 {
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-5,
+.c-6,
+.c-7{
         height: max-content;
     }
 
